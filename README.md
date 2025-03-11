@@ -1,2 +1,2 @@
 # demo_xf
-暂无
+streamlit run app.py
