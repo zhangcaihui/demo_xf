@@ -1,0 +1,39 @@
+{
+  "real_to_mapped": {
+    "capability:std_capabilities/CapabilityGetRunner": "A",
+    "provider:std_capabilities/CapabilityGetRunner": "B",
+    "capability:std_capabilities/PromptCapabilityRunner": "C",
+    "capability:std_capabilities/PromptPlanRunner": "D",
+    "provider:std_capabilities/PromptPlanRunner": "E",
+    "provider:std_capabilities/PromptCapabilityRunner": "F",
+    "capability:std_capabilities/FabricSetPlanRunner": "G",
+    "provider:std_capabilities/FabricSetPlanRunner": "H",
+    "capability:std_capabilities/FabricCompletionRunner": "I",
+    "provider:std_capabilities/FabricCompletionRunner": "J",
+    "capability:std_capabilities/WaypointRunner": "K",
+    "provider:std_capabilities/WaypointRunner": "L",
+    "capability:std_capabilities/PromptPoseRunner": "M",
+    "provider:std_capabilities/PromptPoseRunner": "N",
+    "capability:std_capabilities/PromptOccupancyRunner": "O",
+    "provider:std_capabilities/PromptOccupancyRunner": "P"
+  },
+  "mapped_to_real": {
+    "A": "capability:std_capabilities/CapabilityGetRunner",
+    "B": "provider:std_capabilities/CapabilityGetRunner",
+    "C": "capability:std_capabilities/PromptCapabilityRunner",
+    "D": "capability:std_capabilities/PromptPlanRunner",
+    "E": "provider:std_capabilities/PromptPlanRunner",
+    "F": "provider:std_capabilities/PromptCapabilityRunner",
+    "G": "capability:std_capabilities/FabricSetPlanRunner",
+    "H": "provider:std_capabilities/FabricSetPlanRunner",
+    "I": "capability:std_capabilities/FabricCompletionRunner",
+    "J": "provider:std_capabilities/FabricCompletionRunner",
+    "K": "capability:std_capabilities/WaypointRunner",
+    "L": "provider:std_capabilities/WaypointRunner",
+    "M": "capability:std_capabilities/PromptPoseRunner",
+    "N": "provider:std_capabilities/PromptPoseRunner",
+    "O": "capability:std_capabilities/PromptOccupancyRunner",
+    "P": "provider:std_capabilities/PromptOccupancyRunner"
+  },
+  "next_id": 16
+}

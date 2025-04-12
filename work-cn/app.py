@@ -404,10 +404,10 @@ def generate_network_graph(data):
         )
 
         legend_elements = [
-            plt.Line2D([0], [0], marker='o', color='w', label='Capability',
-                       markerfacecolor='#4B8BBE', markersize=10),
-            plt.Line2D([0], [0], marker='o', color='w', label='Provider',
-                       markerfacecolor='#FFA500', markersize=10),
+            # plt.Line2D([0], [0], marker='o', color='w', label='Capability',
+            #            markerfacecolor='#4B8BBE', markersize=10),
+            # plt.Line2D([0], [0], marker='o', color='w', label='Provider',
+            #            markerfacecolor='#FFA500', markersize=10),
             plt.Line2D([0], [0], marker='d', color='w', label='Self-Implemented',
                        markerfacecolor='#9b59b6', markersize=10),
             plt.Line2D([0], [0], color='#2ecc71', lw=2, label='Early Event (t<5s)'),
@@ -547,7 +547,7 @@ def path_analysis_panel():
 
     st.session_state.graph_layout = st.radio(
         "选择布局方式",
-        ["分层布局", "力导向布局"],
+        ["力导向布局","分层布局"],
         horizontal=True
     )
 
